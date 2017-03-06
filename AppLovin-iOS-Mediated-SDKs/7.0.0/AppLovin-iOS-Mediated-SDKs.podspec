@@ -46,7 +46,7 @@ s.subspec 'UnityAds' do |unity|
 end
 
 s.subspec 'Vungle' do |vungle|
-	vungle.dependency 'VungleSDK-iOS', '~> 4.0.9'
+	vungle.resources = 'Vungle/*'
 end
 
 end
