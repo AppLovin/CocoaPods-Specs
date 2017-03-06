@@ -12,22 +12,41 @@ s.source = {
 	     :git => '/Users/chriscong/dev/AppLovin/SDK-iOS/AppLovin-iOS-Mediated-SDKs/.git', 
 	     :tag => '7.0.0' 
 }
-#s.resources = 'README.md`
-#s.dependency 'GoogleMobileAds'
 
-
-s.subspec 'MoPub' do |mopub|
-mopub.resources = 'MoPub/*'
+s.subspec 'Chartboost' do |chartboost|
+	chartboost.resources = 'Chartboost/*'
 end
 
-#s.subspec 'GoogleMobileAds' do |google|
-#google.resources = 'GoogleMobileAds/*'
-#end
+s.subspec 'FBAudienceNetwork' do |facebook|
+	facebook.resources = 'FBAudienceNetwork/*'
+end
 
-#s.subspec 'FBAudienceNetwork' do |fb|
-     
-    #s.dependency 'FBAudienceNetwork', '~> 4.20.0'
-    #s.vendored_frameworks = 'FBAudienceNetwork/FBAudienceNetwork.framework'
-#end
+s.subspec 'GoogleMobileAds' do |google|
+	google.resources = 'GoogleMobileAds/*'
+end
+
+s.subspec 'Heyzap' do |heyzap|
+	heyzap.resources = 'Heyzap/*'
+end
+
+s.subspec 'InMobi' do |inmobi|
+	inmobi.resources = 'InMobi/*'
+end
+
+s.subspec 'IronSource' do |ironsource|
+	ironsource.resources = 'IronSource/*'
+end
+
+s.subspec 'MoPub' do |mopub|
+	mopub.resources = 'MoPub/*'
+end
+
+s.subspec 'UnityAds' do |unity|
+	unity.resources = 'UnityAds/*'
+end
+
+s.subspec 'Vungle' do |vungle|
+	vungle.resources = 'Vungle/*'
+end
 
 end
