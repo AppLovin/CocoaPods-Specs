@@ -13,11 +13,16 @@ s.source = {
 	     :tag => '7.0.0' 
 }
 #s.resources = 'README.md`
-s.dependency 'GoogleMobileAds'
+#s.dependency 'GoogleMobileAds'
 
-s.subspec 'GoogleMobileAds' do |google|
-google.resources = 'GoogleMobileAds/*'
+
+s.subspec 'MoPub' do |mopub|
+mopub.resources = 'MoPub/*'
 end
+
+#s.subspec 'GoogleMobileAds' do |google|
+#google.resources = 'GoogleMobileAds/*'
+#end
 
 #s.subspec 'FBAudienceNetwork' do |fb|
      
