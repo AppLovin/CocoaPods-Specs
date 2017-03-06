@@ -14,7 +14,8 @@ s.source = {
 }
 
 s.subspec 'Chartboost' do |chartboost|
-	chartboost.resources = 'Chartboost/*'
+	#chartboost.resources = 'Chartboost/*'
+	chartboost.dependency 'ChartboostSDK', '~> 6.6.1'
 end
 
 s.subspec 'FBAudienceNetwork' do |facebook|
@@ -38,8 +39,7 @@ s.subspec 'IronSource' do |ironsource|
 end
 
 s.subspec 'MoPub' do |mopub|
-	mopub.vendored_frameworks = 'IronSource/IronSource.framework'
-	#mopub.resources = 'MoPub/*'
+	mopub.resources = 'MoPub/*'
 end
 
 s.subspec 'UnityAds' do |unity|
@@ -47,7 +47,7 @@ s.subspec 'UnityAds' do |unity|
 end
 
 s.subspec 'Vungle' do |vungle|
-	vungle.resources = 'Vungle/*'
+	vungle.dependency 'VungleSDK-iOS', '~> 4.0.9'
 end
 
 end
