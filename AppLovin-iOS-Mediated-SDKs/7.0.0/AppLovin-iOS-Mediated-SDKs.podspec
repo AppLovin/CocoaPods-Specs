@@ -38,11 +38,12 @@ s.subspec 'IronSource' do |ironsource|
 end
 
 s.subspec 'MoPub' do |mopub|
-	mopub.resources = 'MoPub/*'
+	mopub.vendored_frameworks = 'IronSource/IronSource.framework'
+	#mopub.resources = 'MoPub/*'
 end
 
 s.subspec 'UnityAds' do |unity|
-	unity.resources = 'UnityAds/*'
+	unity.dependency 'UnityAds', '~> 2.0.8'
 end
 
 s.subspec 'Vungle' do |vungle|
