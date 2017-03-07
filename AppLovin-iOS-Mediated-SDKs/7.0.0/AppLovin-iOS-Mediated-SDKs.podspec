@@ -10,31 +10,31 @@ s.author = { 'Christopher Cong' => 'christopher.cong@applovin.com' }
 s.platform = :ios, '7.0'
 s.source = { 
 	     :git => '/Users/chriscong/dev/AppLovin/SDK-iOS/AppLovin-iOS-Mediated-SDKs/.git', 
-	     :tag => '7.0.0' 
+	     :tag => '4.0.0' 
 }
 
 s.subspec 'Chartboost' do |chartboost|
-	chartboost.resources = 'Chartboost/*'
+	chartboost.dependency 'ChartboostSDK', '~> 6.6.1'
 end
 
 s.subspec 'FBAudienceNetwork' do |facebook|
-	facebook.resources = 'FBAudienceNetwork/*'
+	facebook.dependency 'FBAudienceNetwork', '~> 4.20.0'
 end
 
 s.subspec 'GoogleMobileAds' do |google|
-	google.resources = 'GoogleMobileAds/*'
+	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.11.0'
 end
 
 s.subspec 'Heyzap' do |heyzap|
-	heyzap.resources = 'Heyzap/*'
+	heyzap.dependency 'Heyzap', '~> 9.6.9'
 end
 
 s.subspec 'InMobi' do |inmobi|
-	inmobi.resources = 'InMobi/*'
+	inmobi.dependency 'InMobiSDK', '~> 6.1.1'
 end
 
 s.subspec 'IronSource' do |ironsource|
-	ironsource.resources = 'IronSource/*'
+	ironsource.dependency 'IronSourceSDK', '~> 6.5.1'
 end
 
 s.subspec 'MoPub' do |mopub|
@@ -42,11 +42,11 @@ s.subspec 'MoPub' do |mopub|
 end
 
 s.subspec 'UnityAds' do |unity|
-	unity.resources = 'UnityAds/*'
+	unity.dependency 'UnityAds', '~> 2.0.8'
 end
 
 s.subspec 'Vungle' do |vungle|
-	vungle.resources = 'Vungle/*'
+	vungle.dependency 'VungleSDK-iOS', '~> 4.0.9'
 end
 
 end
