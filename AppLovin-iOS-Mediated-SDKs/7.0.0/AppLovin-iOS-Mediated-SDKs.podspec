@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name = 'AppLovin-iOS-Mediated-SDKs'
-s.version = '7.0.0'
+s.version = '4.0.0'
 s.summary = 'AppLovin supported SDKs for iOS mediation'
 s.description = 'Hosted 3rd party SDKs that AppLovin supports for mediation'
 s.homepage = 'https://www.applovin.com/'
