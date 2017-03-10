@@ -9,7 +9,7 @@ s.license = { :file => 'LICENSE.txt', :type => 'AppLovin'  }
 s.author = { 'Christopher Cong' => 'christopher.cong@applovin.com' }
 s.platform = :ios, '7.0'
 s.source = { 
-	     :git => '/Users/chriscong/dev/AppLovin/SDK-iOS/AppLovin-iOS-Mediated-SDKs/.git', 
+	     :git => 'https://github.com/AppLovin/AppLovin-iOS-Mediated-SDKs.git',
 	     :tag => '4.0.0' 
 }
 
@@ -22,7 +22,7 @@ s.subspec 'FBAudienceNetwork' do |facebook|
 end
 
 s.subspec 'GoogleMobileAds' do |google|
-	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.11.0'
+	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.18.0'
 end
 
 s.subspec 'Heyzap' do |heyzap|
