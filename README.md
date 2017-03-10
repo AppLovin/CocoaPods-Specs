@@ -4,5 +4,5 @@ AppLovin CocoaPods Private Specs
 
 # Specs
 
-- iOS Mediated SDKS
+- iOS Mediated SDK
 https://github.com/AppLovin/AppLovin-iOS-Mediated-SDKs.git
