@@ -13,6 +13,10 @@ s.source = {
 	     :tag => '4.0.0' 
 }
 
+s.subspec 'AdColony' do |adcolony|
+	adcolony.dependency 'AdColony', '~> 3.1.1'
+end
+
 s.subspec 'Chartboost' do |chartboost|
 	chartboost.dependency 'ChartboostSDK', '~> 6.6.1'
 end
