@@ -15,12 +15,14 @@ s.license =
 s.source = 
 { 
 	:http => 'https://bintray.com/applovin/iOS/download_file?file_path=applovin-ios-sdk-4.3.0.zip',
+	:type => 'zip',
 	:sha256 => '23d66b9e1187b5983adeea9861d71a16819d6eacf7b38a4bc8d73056fef5fc56'
 }
-s.vendored_frameworks = 'AppLovinSDK.framework'
-#s.public_header_files = 'AppLovinSDK.framework/Headers/*.h'
-#s.module_map = 'AppLovinSDK.framework/Modules/*.modulemap'
-#s.preserve_paths = 'Migrating from Old Integration.pdf', 'appledoc/*'
+s.vendored_frameworks = 'applovin-ios-sdk-4.3.0/AppLovinSDK.framework'
+s.source_files = 'applovin-ios-sdk-4.3.0/AppLovinSDK.framework/**/*.h'
+s.public_header_files = 'applovin-ios-sdk-4.3.0/AppLovinSDK.framework/**/*.h'
+s.module_map = 'applovin-ios-sdk-4.3.0/AppLovinSDK.framework/Modules/module.modulemap'
+s.preserve_paths = 'applovin-ios-sdk-4.3.0/Migrating from Old Integration.pdf', 'applovin-ios-sdk-4.3.0/appledoc/*'
 
 s.frameworks = 'AdSupport', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'StoreKit', 'SystemConfiguration', 'UIKit'
 s.weak_framework = 'WebKit'
