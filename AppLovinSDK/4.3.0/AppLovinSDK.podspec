@@ -20,7 +20,6 @@ s.source =
 }
 s.vendored_frameworks = 'applovin-ios-sdk-4.3.0/AppLovinSDK.framework'
 s.source_files = 'applovin-ios-sdk-4.3.0/AppLovinSDK.framework/**/*.h'
-s.public_header_files = 'applovin-ios-sdk-4.3.0/AppLovinSDK.framework/**/*.h'
 s.module_map = 'applovin-ios-sdk-4.3.0/AppLovinSDK.framework/Modules/module.modulemap'
 s.preserve_paths = 'applovin-ios-sdk-4.3.0/Migrating from Old Integration.pdf', 'applovin-ios-sdk-4.3.0/appledoc/*'
 
