@@ -14,9 +14,9 @@ s.license =
 
 s.source = 
 { 
-	:http => 'https://bintray.com/applovin/iOS/download_file?file_path=applovin-ios-sdk-4.3.1.tar.bz2',
-	:type => 'tbz',
-	:sha256 => 'fe90b8c68672f38f0261958322ba267ebc7960686e567e2928f7185b1f31b876'
+	:http => 'https://bintray.com/applovin/iOS/download_file?file_path=applovin-ios-sdk-4.3.1.zip',
+	:type => 'zip',
+	:sha256 => 'a919664eceb63efdb60b9e20efc617d2f329af3ac00f349da5304ec5df5a8a04'
 }
 s.vendored_frameworks = 'applovin-ios-sdk-4.3.1/AppLovinSDK.framework'
 s.module_map = 'applovin-ios-sdk-4.3.1/AppLovinSDK.framework/Modules/module.modulemap'
