@@ -25,7 +25,7 @@ s.preserve_paths = 'applovin-ios-sdk-4.4.1/Migrating from Old Integration.pdf', 
 s.frameworks = 'AdSupport', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
 
 s.xcconfig = {
-	      'OTHER_LDFLAGS' => '$(inherited)'
+	      'OTHER_LDFLAGS' => '-ObjC'
 }
 
 s.description = <<-DESC
