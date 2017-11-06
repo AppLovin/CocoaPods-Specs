@@ -16,7 +16,7 @@ s.source =
 { 
 	:http => 'https://bintray.com/applovin/iOS/download_file?file_path=applovin-ios-sdk-4.5.0.zip',
 	:type => 'zip',
-	:sha256 => ''
+	:sha256 => 'efde9c75491746b6d022e23bc20c89c118537cc7d852fc4e4466ef3c4f691b8f'
 }
 s.vendored_frameworks = 'applovin-ios-sdk-4.5.0/AppLovinSDK.framework'
 s.module_map = 'applovin-ios-sdk-4.5.0/AppLovinSDK.framework/Modules/module.modulemap'
