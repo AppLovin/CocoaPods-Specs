@@ -20,13 +20,13 @@ LICENSE
 
 s.source = 
 { 
-	:http => 'https://bintray.com/applovin/iOS/download_file?file_path=applovin-ios-sdk-4.8.4.zip',
+	:http => 'https://bintray.com/applovin/iOS/download_file?file_path=applovin-ios-sdk-5.0.0.zip',
 	:type => 'zip',
-	:sha256 => '5ba8ad79ecc2c8930473f34a2f0466b708c3243e02ae70801afe654ff5422059'
+	:sha256 => '3efb222353c112bac493a3fcdc33b207a7d21cf1b4d399cf622abf4630ab3057'
 }
-s.vendored_frameworks = 'applovin-ios-sdk-4.8.4/AppLovinSDK.framework'
-s.module_map = 'applovin-ios-sdk-4.8.4/AppLovinSDK.framework/Modules/module.modulemap'
-s.preserve_paths = 'applovin-ios-sdk-4.8.4/Migrating from Old Integration.pdf', 'applovin-ios-sdk-4.8.4/appledoc/*'
+s.vendored_frameworks = 'applovin-ios-sdk-5.0.0/AppLovinSDK.framework'
+s.module_map = 'applovin-ios-sdk-5.0.0/AppLovinSDK.framework/Modules/module.modulemap'
+s.preserve_paths = 'applovin-ios-sdk-5.0.0/Migrating from Old Integration.pdf', 'applovin-ios-sdk-5.0.0/appledoc/*'
 
 s.frameworks = 'AdSupport', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
 
