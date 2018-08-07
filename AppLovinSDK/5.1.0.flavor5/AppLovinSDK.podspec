@@ -4,8 +4,8 @@ s.authors =
 {
 	'AppLovin Corporation' => 'support@applovin.com'
 }
-s.name = 'AppLovinSDK1'
-s.version = '5.1.0'
+s.name = 'AppLovinSDK'
+s.version = '5.1.0.flavor5'
 s.platform = :ios, '6.0'
 s.summary = 'AppLovin SDK for iOS'
 s.homepage = 'https://www.applovin.com/'

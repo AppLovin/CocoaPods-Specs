@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
-s.authors =
+s.authors = 
 {
 	'AppLovin Corporation' => 'support@applovin.com'
 }
-s.name = 'AppLovinSDK-__FLAVOR__'
-s.version = '5.1.0'
+s.name = 'AppLovinSDK'
+s.version = '5.1.0.flavor4'
 s.platform = :ios, '6.0'
 s.summary = 'AppLovin SDK for iOS'
 s.homepage = 'https://www.applovin.com/'
@@ -23,9 +23,9 @@ LICENSE
 
 s.source = 
 { 
-	:http => 'https://bintray.com/applovin/iOS/download_file?file_path=applovin-ios-sdk-5.1.0-__FLAVOR__.zip',
+	:http => 'https://bintray.com/applovin/iOS/download_file?file_path=applovin-ios-sdk-5.1.0.zip',
 	:type => 'zip',
-	:sha256 => '__SHA256__'
+	:sha256 => '1156d4cac2841a9596fd3877c989404c3885d70b6337a146965098a6f2adf658'
 }
 s.vendored_frameworks = 'applovin-ios-sdk-5.1.0/AppLovinSDK.framework'
 s.module_map = 'applovin-ios-sdk-5.1.0/AppLovinSDK.framework/Modules/module.modulemap'
