@@ -5,7 +5,7 @@ s.authors =
 	'AppLovin Corporation' => 'support@applovin.com'
 }
 s.name = 'AppLovinSDK'
-s.version = 'flavor1.5.3.0'
+s.version = '6.0.0'
 s.platform = :ios, '6.0'
 s.summary = 'AppLovin SDK for iOS'
 s.homepage = 'https://www.applovin.com/'
@@ -50,5 +50,45 @@ Our marketing platform reaches new users and matches them with relevant brands -
 We deliver relevant content to over a billion mobile consumers every month. With AppLovin, advertisers attain their mobile marketing goals.
 
 DESC
+
+s.subspec 'AdColony' do |adcolony|
+	adcolony.dependency 'AdColony', '~> 3.3.5'
+end
+
+s.subspec 'ChartboostSDK' do |chartboost|
+	chartboost.dependency 'ChartboostSDK', '~> 7.2.0'
+end
+
+s.subspec 'FBAudienceNetwork' do |facebook|
+	facebook.dependency 'FBAudienceNetwork', '~> 4.99.2'
+end
+
+s.subspec 'Google-Mobile-Ads-SDK' do |google|
+	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.8.0'
+end
+
+s.subspec 'Heyzap' do |heyzap|
+	heyzap.dependency 'Heyzap', '~> 9.22.0'
+end
+
+s.subspec 'InMobiSDK' do |inmobi|
+	inmobi.dependency 'InMobiSDK', '~> 7.1.1'
+end
+
+s.subspec 'IronSourceSDK' do |ironsource|
+	ironsource.dependency 'IronSourceSDK', '~> 6.7.10.0'
+end
+
+s.subspec 'mopub-ios-sdk' do |mopub|
+	mopub.dependency 'mopub-ios-sdk/Core', '~> 5.2.0'
+end
+
+s.subspec 'UnityAds' do |unity|
+	unity.dependency 'UnityAds', '~> 2.3.0'
+end
+
+s.subspec 'Vungle-iOS' do |vungle|
+	vungle.dependency 'VungleSDK-iOS', '~> 6.2.0'
+end
 
 end
