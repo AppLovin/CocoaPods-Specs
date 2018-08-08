@@ -7,7 +7,7 @@ s.description = 'Hosted 3rd party SDKs that AppLovin supports for mediation'
 s.homepage = 'https://www.applovin.com/'
 s.license = { :file => 'LICENSE.txt', :type => 'AppLovin'  }
 s.author = { 'Christopher Cong' => 'christopher.cong@applovin.com' }
-s.platform = :ios, '6.0'
+s.platform = :ios, '8.0'
 s.source = {
              :git => 'https://github.com/AppLovin/AppLovin-iOS-Mediated-SDKs.git',
              :tag => '4.0.0'
@@ -49,7 +49,7 @@ s.subspec 'UnityAds' do |unity|
 	unity.dependency 'UnityAds', '~> 2.3.0'
 end
 
-s.subspec 'Vungle-iOS' do |vungle|
+s.subspec 'VungleSDK-iOS' do |vungle|
 	vungle.dependency 'VungleSDK-iOS', '~> 6.2.0'
 end
 
