@@ -22,11 +22,11 @@ s.subspec 'ChartboostSDK' do |chartboost|
 end
 
 s.subspec 'FBAudienceNetwork' do |facebook|
-	facebook.dependency 'FBAudienceNetwork', '~> 4.99.2'
+	facebook.dependency 'FBAudienceNetwork', '~> 4.99.3'
 end
 
 s.subspec 'Google-Mobile-Ads-SDK' do |google|
-	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.8.0'
+	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.32.0'
 end
 
 s.subspec 'Heyzap' do |heyzap|
@@ -34,15 +34,15 @@ s.subspec 'Heyzap' do |heyzap|
 end
 
 s.subspec 'InMobiSDK' do |inmobi|
-	inmobi.dependency 'InMobiSDK', '~> 7.1.1'
+	inmobi.dependency 'InMobiSDK', '~> 7.1.2'
 end
 
 s.subspec 'IronSourceSDK' do |ironsource|
-	ironsource.dependency 'IronSourceSDK', '~> 6.7.10.0'
+	ironsource.dependency 'IronSourceSDK', '~> 6.7.11.0'
 end
 
 s.subspec 'mopub-ios-sdk' do |mopub|
-	mopub.dependency 'mopub-ios-sdk/Core', '~> 5.2.0'
+	mopub.dependency 'mopub-ios-sdk/Core', '~> 5.3.0'
 end
 
 s.subspec 'UnityAds' do |unity|
@@ -50,7 +50,7 @@ s.subspec 'UnityAds' do |unity|
 end
 
 s.subspec 'VungleSDK-iOS' do |vungle|
-	vungle.dependency 'VungleSDK-iOS', '~> 6.2.0'
+	vungle.dependency 'VungleSDK-iOS', '~> 6.3.0'
 end
 
 end
