@@ -10,7 +10,7 @@ s.author = { 'Christopher Cong' => 'christopher.cong@applovin.com' }
 s.platform = :ios, '8.0'
 s.source = {
              :git => 'https://github.com/AppLovin/AppLovin-iOS-Mediated-SDKs.git',
-             :tag => '6.0.0'
+             :tag => '4.0.0'
 }
 
 s.subspec 'AdColony' do |adcolony|
@@ -27,7 +27,6 @@ end
 
 s.subspec 'Google-Mobile-Ads-SDK' do |google|
 	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.32.0'
-	google.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-weak_framework "Google-Mobile-Ads-SDK"' }
 end
 
 s.subspec 'Heyzap' do |heyzap|
