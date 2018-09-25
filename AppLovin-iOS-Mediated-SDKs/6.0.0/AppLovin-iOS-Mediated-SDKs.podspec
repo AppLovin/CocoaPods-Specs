@@ -34,7 +34,7 @@ s.subspec 'Google-Mobile-Ads-SDK' do |google|
 end
 
 s.subspec 'Heyzap' do |heyzap|
-	heyzap.dependency 'Heyzap', '~> 9.22.0'
+	heyzap.dependency 'Heyzap', '~> 9.50.0'
 end
 
 s.subspec 'InMobiSDK' do |inmobi|
