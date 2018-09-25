@@ -10,11 +10,15 @@ s.author = { 'Christopher Cong' => 'christopher.cong@applovin.com' }
 s.platform = :ios, '8.0'
 s.source = {
              :git => 'https://github.com/AppLovin/AppLovin-iOS-Mediated-SDKs.git',
-             :tag => '4.0.0'
+             :tag => '6.0.0'
 }
 
 s.subspec 'AdColony' do |adcolony|
 	adcolony.dependency 'AdColony', '~> 3.3.5'
+end
+
+s.subspec 'AmazonAd' do |amazonad|
+    amazonad.dependency 'AmazonAd', '~> 2.2.15.1'
 end
 
 s.subspec 'ChartboostSDK' do |chartboost|
