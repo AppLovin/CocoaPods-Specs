@@ -30,7 +30,7 @@ s.subspec 'FBAudienceNetwork' do |facebook|
 end
 
 s.subspec 'Google-Mobile-Ads-SDK' do |google|
-	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.32.0'
+	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.34.0'
 end
 
 s.subspec 'Heyzap' do |heyzap|
