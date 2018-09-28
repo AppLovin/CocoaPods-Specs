@@ -7,7 +7,7 @@ s.description = 'Hosted 3rd party SDKs that AppLovin supports for mediation'
 s.homepage = 'https://www.applovin.com/'
 s.license = { :file => 'LICENSE.txt', :type => 'AppLovin'  }
 s.author = { 'Christopher Cong' => 'christopher.cong@applovin.com' }
-s.platform = :ios, '8.0'
+s.platform = :ios, '9.0'
 s.source = {
              :git => 'https://github.com/AppLovin/AppLovin-iOS-Mediated-SDKs.git',
              :tag => '6.0.0'
@@ -26,7 +26,7 @@ s.subspec 'ChartboostSDK' do |chartboost|
 end
 
 s.subspec 'FBAudienceNetwork' do |facebook|
-	facebook.dependency 'FBAudienceNetwork', '~> 4.99.3'
+	facebook.dependency 'FBAudienceNetwork', '~> 5.0.0'
 end
 
 s.subspec 'Google-Mobile-Ads-SDK' do |google|
