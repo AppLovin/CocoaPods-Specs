@@ -41,6 +41,12 @@ s.subspec 'InMobiSDK' do |inmobi|
 	inmobi.dependency 'InMobiSDK', '~> 7.1.2'
 end
 
+s.subspec 'InneractiveAdSDK' do |inneractive|
+	inneractive.vendored_frameworks = 'InneractiveAdSDK/IASDKCore/IASDKCore.framework', 'InneractiveAdSDK/IASDKMRAID/IASDKMRAID.framework', 'InneractiveAdSDK/IASDKVideo/IASDKVideo.framework'
+	inneractive.resource = 'InneractiveAdSDK/IASDKCore/IASDKResources.bundle'
+	inneractive.library = 'xml2.2'
+end
+
 s.subspec 'IronSourceSDK' do |ironsource|
 	ironsource.dependency 'IronSourceSDK', '~> 6.7.11.0'
 end
