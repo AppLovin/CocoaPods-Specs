@@ -39,8 +39,11 @@ end
 
 s.subspec 'InneractiveAdSDK' do |inneractive|
 	inneractive.vendored_frameworks = 'InneractiveAdSDK/IASDKCore/IASDKCore.framework', 'InneractiveAdSDK/IASDKMRAID/IASDKMRAID.framework', 'InneractiveAdSDK/IASDKVideo/IASDKVideo.framework'
-	inneractive.resource = 'InneractiveAdSDK/IASDKCore/IASDKResources.bundle'
 	inneractive.library = 'xml2.2'
+end
+
+s.subspec 'InneractiveAdSDKResourceBundle' do |inneractiveResource|
+	inneractiveResource.resource = 'InneractiveAdSDK/IASDKCore/IASDKResources.bundle'
 end
 
 s.subspec 'IronSourceSDK' do |ironsource|
