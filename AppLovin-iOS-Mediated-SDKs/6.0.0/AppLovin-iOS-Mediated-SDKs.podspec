@@ -55,6 +55,10 @@ s.subspec 'mopub-ios-sdk' do |mopub|
 	mopub.dependency 'mopub-ios-sdk/Core', '~> 5.3.0'
 end
 
+s.subspec 'TapjoySDK' do |tapjoy|
+	tapjoy.dependency 'TapjoySDK', '~> 12.1.0'
+end
+
 s.subspec 'UnityAds' do |unity|
 	unity.dependency 'UnityAds', '~> 2.3.0'
 end
