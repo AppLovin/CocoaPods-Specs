@@ -38,12 +38,13 @@ s.subspec 'InMobiSDK' do |inmobi|
 end
 
 s.subspec 'InneractiveAdSDK' do |inneractive|
-	inneractive.vendored_frameworks = 'InneractiveAdSDK/IASDKCore/IASDKCore.framework', 'InneractiveAdSDK/IASDKMRAID/IASDKMRAID.framework', 'InneractiveAdSDK/IASDKVideo/IASDKVideo.framework'
-	inneractive.library = 'xml2.2'
+	inneractive.dependency 'AppLovin-iOS-Mediated-SDKs/InneractiveAdSDKOnly'
+	inneractive.resource = 'InneractiveAdSDK/IASDKCore/IASDKResources.bundle'
 end
 
-s.subspec 'InneractiveAdSDKResourceBundle' do |inneractiveResource|
-	inneractiveResource.resource = 'InneractiveAdSDK/IASDKCore/IASDKResources.bundle'
+s.subspec 'InneractiveAdSDKOnly' do |inneractiveSDKOnly|
+	inneractiveSDKOnly.vendored_frameworks = 'InneractiveAdSDK/IASDKCore/IASDKCore.framework', 'InneractiveAdSDK/IASDKMRAID/IASDKMRAID.framework', 'InneractiveAdSDK/IASDKVideo/IASDKVideo.framework'
+	inneractiveSDKOnly.library = 'xml2.2'
 end
 
 s.subspec 'IronSourceSDK' do |ironsource|
