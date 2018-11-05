@@ -52,7 +52,7 @@ s.subspec 'IronSourceSDK' do |ironsource|
 end
 
 s.subspec 'mopub-ios-sdk' do |mopub|
-	mopub.dependency 'mopub-ios-sdk/Core', '~> 5.3.0'
+	mopub.dependency 'mopub-ios-sdk', '~> 5.3.0'
 end
 
 s.subspec 'TapjoySDK' do |tapjoy|
