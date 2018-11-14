@@ -52,7 +52,7 @@ s.subspec 'IronSourceSDK' do |ironsource|
 end
 
 s.subspec 'MintegralSDK' do |mintegral|
-	mintegral.dependency 'AppLovin-iOS-Mediated-SDKs/Mintegral'
+	mintegral.vendored_frameworks = 'MintegralSDK/MTGSDK/MTGSDK.framework', 'MintegralSDK/MTGSDKInterstitialVideo/MTGSDKInterstitialVideo.framework', 'MintegralSDK/MTGSDKReward/MTGSDKReward.framework'
 end
 
 s.subspec 'mopub-ios-sdk' do |mopub|
