@@ -10,6 +10,7 @@ s.author = { 'Christopher Cong' => 'christopher.cong@applovin.com' }
 s.platform = :ios, '9.0'
 s.source = {
              :git => 'https://github.com/AppLovin/AppLovin-iOS-Mediated-SDKs.git',
+             :branch => 'master'
 }
 
 s.subspec 'AdColony' do |adcolony|
@@ -52,6 +53,7 @@ end
 
 s.subspec 'MintegralSDK' do |mintegral|
 	mintegral.vendored_frameworks = 'MintegralSDK/MTGSDK/MTGSDK.framework', 'MintegralSDK/MTGSDKInterstitialVideo/MTGSDKInterstitialVideo.framework', 'MintegralSDK/MTGSDKReward/MTGSDKReward.framework'
+	mintegral.library = 'sqlite3', 'z'
 end
 
 s.subspec 'mopub-ios-sdk' do |mopub|
