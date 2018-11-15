@@ -51,10 +51,6 @@ s.subspec 'IronSourceSDK' do |ironsource|
 	ironsource.dependency 'IronSourceSDK', '~> 6.7.11.0'
 end
 
-s.subspec 'MintegralSDK' do |mintegral|
-	mintegral.vendored_frameworks = 'MintegralSDK/MTGSDK/MTGSDK.framework', 'MintegralSDK/MTGSDKInterstitialVideo/MTGSDKInterstitialVideo.framework', 'MintegralSDK/MTGSDKReward/MTGSDKReward.framework'
-end
-
 s.subspec 'mopub-ios-sdk' do |mopub|
 	mopub.dependency 'mopub-ios-sdk', '~> 5.3.0'
 end
