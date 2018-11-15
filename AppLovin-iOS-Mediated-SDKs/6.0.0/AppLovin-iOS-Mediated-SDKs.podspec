@@ -10,7 +10,7 @@ s.author = { 'Christopher Cong' => 'christopher.cong@applovin.com' }
 s.platform = :ios, '9.0'
 s.source = {
              :git => 'https://github.com/AppLovin/AppLovin-iOS-Mediated-SDKs.git',
-             :tag => '6.0.0'
+             :branch => 'release/6.0.0'
 }
 
 s.subspec 'AdColony' do |adcolony|
@@ -37,18 +37,23 @@ s.subspec 'InMobiSDK' do |inmobi|
 	inmobi.dependency 'InMobiSDK', '~> 7.1.2'
 end
 
-s.subspec 'InneractiveAdSDK' do |inneractive|
-	inneractive.dependency 'AppLovin-iOS-Mediated-SDKs/InneractiveAdSDKOnly'
-	inneractive.resource = 'InneractiveAdSDK/IASDKCore/IASDKResources.bundle'
+s.subspec 'InneractiveSDK' do |inneractive|
+	inneractive.dependency 'AppLovin-iOS-Mediated-SDKs/InneractiveSDKOnly'
+	inneractive.resource = 'InneractiveSDK/IASDKCore/IASDKResources.bundle'
 end
 
-s.subspec 'InneractiveAdSDKOnly' do |inneractiveSDKOnly|
-	inneractiveSDKOnly.vendored_frameworks = 'InneractiveAdSDK/IASDKCore/IASDKCore.framework', 'InneractiveAdSDK/IASDKMRAID/IASDKMRAID.framework', 'InneractiveAdSDK/IASDKVideo/IASDKVideo.framework'
+s.subspec 'InneractiveSDKOnly' do |inneractiveSDKOnly|
+	inneractiveSDKOnly.vendored_frameworks = 'InneractiveSDK/IASDKCore/IASDKCore.framework', 'InneractiveSDK/IASDKMRAID/IASDKMRAID.framework', 'InneractiveSDK/IASDKVideo/IASDKVideo.framework'
 	inneractiveSDKOnly.library = 'xml2.2'
 end
 
 s.subspec 'IronSourceSDK' do |ironsource|
 	ironsource.dependency 'IronSourceSDK', '~> 6.7.11.0'
+end
+
+s.subspec 'MintegralSDK' do |mintegral|
+	mintegral.vendored_frameworks = 'MintegralSDK/MTGSDK/MTGSDK.framework', 'MintegralSDK/MTGSDKInterstitialVideo/MTGSDKInterstitialVideo.framework', 'MintegralSDK/MTGSDKReward/MTGSDKReward.framework'
+	mintegral.library = 'sqlite3', 'z'
 end
 
 s.subspec 'mopub-ios-sdk' do |mopub|
