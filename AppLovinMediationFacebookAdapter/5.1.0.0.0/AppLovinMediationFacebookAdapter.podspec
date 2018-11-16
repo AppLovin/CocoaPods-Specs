@@ -25,7 +25,7 @@ s.source =
 { 
   :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationFacebookAdapter-5.1.0.0.0.zip',
   :type => 'zip',
-  :sha256 => 'ee5d99858bc64a6de28083894eace31c9993c29ea6dd4df4121c56514fd7a926'
+  :sha256 => '145a755f54d0334d05385a2b4ec0e4305028c689dd535d7ed9e82fa54ee2c529'
 }
 
 s.vendored_frameworks = 'AppLovinMediationFacebookAdapter-5.1.0.0.0/AppLovinMediationFacebookAdapter.framework'
