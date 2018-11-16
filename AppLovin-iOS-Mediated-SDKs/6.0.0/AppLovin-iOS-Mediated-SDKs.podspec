@@ -26,11 +26,11 @@ s.subspec 'ChartboostSDK' do |chartboost|
 end
 
 s.subspec 'FBAudienceNetwork' do |facebook|
-	facebook.dependency 'FBAudienceNetwork', '~> 5.0.0'
+	facebook.dependency 'FBAudienceNetwork', '~> 5.1.0'
 end
 
 s.subspec 'Google-Mobile-Ads-SDK' do |google|
-	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.34.0'
+	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.35.2'
 end
 
 s.subspec 'InMobiSDK' do |inmobi|
@@ -57,7 +57,7 @@ s.subspec 'MintegralSDK' do |mintegral|
 end
 
 s.subspec 'mopub-ios-sdk' do |mopub|
-	mopub.dependency 'mopub-ios-sdk', '~> 5.3.0'
+	mopub.dependency 'mopub-ios-sdk', '~> 5.4.0'
 end
 
 s.subspec 'TapjoySDK' do |tapjoy|
