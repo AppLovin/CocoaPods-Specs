@@ -31,7 +31,6 @@ s.source =
 s.vendored_frameworks = 'AppLovinMediationFacebookAdapter-5.1.0.0.0/AppLovinMediationFacebookAdapter.framework'
 s.module_map = 'AppLovinMediationFacebookAdapter-5.1.0.0.0/AppLovinMediationFacebookAdapter.framework/Modules/module.modulemap'
 
-s.dependency 'FBAudienceNetwork', '~> 5.1.0'
 s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'AudioToolbox', 'StoreKit', 'CoreGraphics', 'UIKit', 'Foundation', 'Security', 'CoreImage', 'AVFoundation', 'CoreMedia'

@@ -31,7 +31,6 @@ s.source =
 s.vendored_frameworks = 'AppLovinMediationGoogleAdapter-7.35.2.0.0/AppLovinMediationGoogleAdapter.framework'
 s.module_map = 'AppLovinMediationGoogleAdapter-7.35.2.0.0/AppLovinMediationGoogleAdapter.framework/Modules/module.modulemap'
 
-s.dependency 'Google-Mobile-Ads-SDK', '~> 7.35.2'
 s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'CoreVideo', 'GLKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
