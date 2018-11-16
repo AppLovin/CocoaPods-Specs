@@ -4,10 +4,10 @@ s.authors =
 {
 	'AppLovin Corporation' => 'support@applovin.com'
 }
-s.name = 'MaxAdsFacebookAdapter'
-s.version = '5.1.0.0.0'
+s.name = 'AppLovinMediationMoPubAdapter'
+s.version = '5.4.0.0.0'
 s.platform = :ios, '9.0'
-s.summary = 'Facebook adapter used for mediation with the AppLovin MAX SDK'
+s.summary = 'MoPub adapter used for mediation with the AppLovin MAX SDK'
 s.homepage = 'https://www.applovin.com/'
 s.license = 
 { 
@@ -23,17 +23,18 @@ LICENSE
 
 s.source = 
 { 
-  :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=facebook-adapter-5.1.0.0.0.zip',
+  :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationMoPubAdapter-5.4.0.0.0.zip',
   :type => 'zip',
-  :sha256 => ''
+  :sha256 => '9a26757f16645caf14eacd8cbebdc5979dc235400f63433b1efe72e5e1da7d85'
 }
 
-s.public_header_files = 'MaxAdsFacebookAdapter/5.1.0.0.0/MaxAdsFacebookAdapter.framework/Headers'
-s.vendored_frameworks = 'MaxAdsFacebookAdapter/5.1.0.0.0/MaxAdsFacebookAdapter.framework'
+s.vendored_frameworks = 'AppLovinMediationMoPubAdapter-5.4.0.0.0/AppLovinMediationMoPubAdapter.framework'
 
-s.frameworks = 'AudioToolbox', 'StoreKit', 'CoreGraphics', 'UIKit', 'Foundation', 'Security', 'CoreImage', 'AVFoundation', 'CoreMedia'
-s.weak_frameworks = 'AdSupport', 'CoreMotion', 'SafariServices', 'VideoToolbox', 'WebKit'
-s.library = 'xml2.2', 'c++'
+s.dependency 'mopub-ios-sdk', '~> 5.4.0'
+s.dependency 'AppLovinSDK', '>= 6.0.0'
+
+s.frameworks = 'AVFoundation', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreTelephony', 'Foundation', 'MediaPlayer', 'QuartzCore', 'SystemConfiguration', 'UIKit', 'SafariServices'
+s.weak_frameworks = 'AdSupport', 'StoreKit', 'WebKit'
 
 s.description = <<-DESC
 
