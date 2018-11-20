@@ -32,8 +32,6 @@ s.vendored_frameworks = 'AppLovinMediationFyberAdapter-7.1.1.0/AppLovinMediation
 s.module_map = 'AppLovinMediationFyberAdapter-7.1.1.0/AppLovinMediationFyberAdapter.framework/Modules/module.modulemap'
 s.resource = 'AppLovinMediationFyberAdapter-7.1.1.0/IASDKResources.bundle'
 
-s.dependency 'AppLovinSDK', '>= 6.0.0'
-
 s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'CoreTelephony', 'StoreKit', 'AdSupport', 'AVFoundation', 'CoreMedia', 'WebKit'
 s.library = 'xml2.2'
 
