@@ -4,10 +4,10 @@ s.authors =
 {
 	'AppLovin Corporation' => 'support@applovin.com'
 }
-s.name = 'AppLovinMediationTapjoyAdapter'
-s.version = '12.2.0.0'
+s.name = 'AppLovinMediationAmazonAdAdapter'
+s.version = '2.2.15.1.0'
 s.platform = :ios, '9.0'
-s.summary = 'Tapjoy adapter used for mediation with the AppLovin MAX SDK'
+s.summary = 'AmazonAd adapter used for mediation with the AppLovin MAX SDK'
 s.homepage = 'https://www.applovin.com/'
 s.license = 
 { 
@@ -23,19 +23,16 @@ LICENSE
 
 s.source = 
 { 
-  	:http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationTapjoyAdapter-12.2.0.0.zip',
+  	:http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationAmazonAdAdapter-2.2.15.1.0.zip',
   	:type => 'zip',
-	:sha256 => '700311b5fdaaf3b5da5357e912485a923535efb8090230be380a6a2955d6de0a'
+	:sha256 => 'e62649cb1385af94ae70f023c69155168d35f847e47124825f03c8c8a6272dc4'
 }
 
-s.vendored_frameworks = 'AppLovinMediationTapjoyAdapter-12.2.0.0/AppLovinMediationTapjoyAdapter.framework'
-s.resource = 'AppLovinMediationTapjoyAdapter-12.2.0.0/TapjoyResources.bundle'
+s.vendored_frameworks = 'AppLovinMediationAmazonAdAdapter-2.2.15.1.0/AppLovinMediationAmazonAdAdapter.framework'
 
 s.dependency 'AppLovinSDK', '>= 6.0.0'
 
-s.frameworks = 'Security', 'CoreData', 'CFNetwork', 'CoreGraphics', 'CoreLocation', 'CoreMotion', 'EventKitUI', 'EventKit', 'Foundation', 'MapKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'SystemConfiguration', 'UIKit'
-s.weak_frameworks = 'AdSupport', 'CoreTelephony', 'Social', 'StoreKit', 'Twitter'
-s.library = 'sqlite3.0', 'xml2', 'z', 'c++'
+s.frameworks = 'AdSupport', 'CoreLocation', 'SystemConfiguration', 'CoreTelephony', 'MediaPlayer', 'EventKit', 'EventKitUI', 'StoreKit', 'QuartzCore', 'SafariServices', 'JavaScriptCore'
 
 s.description = <<-DESC
 
