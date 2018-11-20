@@ -5,7 +5,7 @@ s.authors =
 	'AppLovin Corporation' => 'support@applovin.com'
 }
 s.name = 'AppLovinMediationGoogleAdapter'
-s.version = '7.35.2.0.0'
+s.version = '7.36.0.0'
 s.platform = :ios, '9.0'
 s.summary = 'Google adapter used for mediation with the AppLovin MAX SDK'
 s.homepage = 'https://www.applovin.com/'
@@ -23,14 +23,14 @@ LICENSE
 
 s.source = 
 { 
-  :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationGoogleAdapter-7.35.2.0.0.zip',
+  :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationGoogleAdapter-7.36.0.0.zip',
   :type => 'zip',
-  :sha256 => 'd542efef00e9958b68b0ff6b3b07cc148a6e8a03710cf72788c0c53e898e1660'
+  :sha256 => '50dfc068c56ec644218226d5bc45e335a4c53fc0d723408a771a0b87a6173063'
 }
 
-s.vendored_frameworks = 'AppLovinMediationGoogleAdapter-7.35.2.0.0/AppLovinMediationGoogleAdapter.framework'
-s.module_map = 'AppLovinMediationGoogleAdapter-7.35.2.0.0/AppLovinMediationGoogleAdapter.framework/Modules/module.modulemap'
-
+s.vendored_frameworks = 'AppLovinMediationGoogleAdapter-7.36.0.0/AppLovinMediationGoogleAdapter.framework'
+s.module_map = 'AppLovinMediationGoogleAdapter-7.36.0.0/AppLovinMediationGoogleAdapter.framework/Modules/module.modulemap'
+ 
 s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'CoreVideo', 'GLKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
