@@ -23,12 +23,12 @@ LICENSE
 
 s.source = 
 { 
-  :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationMoPubAdapter-5.4.0.0.0.zip',
+  :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationMoPubAdapter-5.4.0.0.zip',
   :type => 'zip',
-  :sha256 => '9a26757f16645caf14eacd8cbebdc5979dc235400f63433b1efe72e5e1da7d85'
+  :sha256 => '920e554aa422a19efe0d556696c3243fa3cecb932390bd83e1fb57621c8881da'
 }
 
-s.vendored_frameworks = 'AppLovinMediationMoPubAdapter-5.4.0.0.0/AppLovinMediationMoPubAdapter.framework'
+s.vendored_frameworks = 'AppLovinMediationMoPubAdapter-5.4.0.0/AppLovinMediationMoPubAdapter.framework'
 
 s.dependency 'mopub-ios-sdk', '~> 5.4.0'
 s.dependency 'AppLovinSDK', '>= 6.0.0'
