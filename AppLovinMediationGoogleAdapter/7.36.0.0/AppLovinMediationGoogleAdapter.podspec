@@ -25,7 +25,7 @@ s.source =
 { 
   :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationGoogleAdapter-7.36.0.0.zip',
   :type => 'zip',
-  :sha256 => '50dfc068c56ec644218226d5bc45e335a4c53fc0d723408a771a0b87a6173063'
+  :sha256 => 'c2e72076342790f1cadfbe3b4132ae6b13f73f3acfe7965a730d4fd2a3880c02'
 }
 
 s.vendored_frameworks = 'AppLovinMediationGoogleAdapter-7.36.0.0/AppLovinMediationGoogleAdapter.framework'
