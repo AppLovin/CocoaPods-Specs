@@ -4,10 +4,10 @@ s.authors =
 {
 	'AppLovin Corporation' => 'support@applovin.com'
 }
-s.name = 'AppLovinMediationAmazonAdAdapter'
+s.name = 'AppLovinMediationAmazonAdapter'
 s.version = '2.2.15.1.0'
 s.platform = :ios, '9.0'
-s.summary = 'AmazonAd adapter used for mediation with the AppLovin MAX SDK'
+s.summary = 'Amazon adapter used for mediation with the AppLovin MAX SDK'
 s.homepage = 'https://www.applovin.com/'
 s.license = 
 { 
@@ -23,12 +23,12 @@ LICENSE
 
 s.source = 
 { 
-  	:http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationAmazonAdAdapter-2.2.15.1.0.zip',
+  	:http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationAmazonAdapter-2.2.15.1.0.zip',
   	:type => 'zip',
-	:sha256 => 'e62649cb1385af94ae70f023c69155168d35f847e47124825f03c8c8a6272dc4'
+	:sha256 => 'f7366c37f19b2e1e1bad66d04d9b4d0c495e553b43e54e39b8b81460d4e91761'
 }
 
-s.vendored_frameworks = 'AppLovinMediationAmazonAdAdapter-2.2.15.1.0/AppLovinMediationAmazonAdAdapter.framework'
+s.vendored_frameworks = 'AppLovinMediationAmazonAdapter-2.2.15.1.0/AppLovinMediationAmazonAdapter.framework'
 
 s.dependency 'AppLovinSDK', '>= 6.0.0'
 
