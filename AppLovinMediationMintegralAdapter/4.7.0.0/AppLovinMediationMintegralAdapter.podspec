@@ -30,7 +30,7 @@ s.source =
 
 s.vendored_frameworks = 'AppLovinMediationMintegralAdapter-4.7.0.0/AppLovinMediationMintegralAdapter.framework'
 
-s.dependency 'Mintegral', '= 4.7.0.0'
+s.dependency 'MintegralSDK', '= 4.7.0.0'
 s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'CoreGraphics', 'Foundation', 'UIKit', 'AdSupport', 'StoreKit', 'QuartzCore', 'CoreLocation', 'CoreTelephony', 'MobileCoreServices', 'Accelerate', 'AVFoundation', 'WebKit'
