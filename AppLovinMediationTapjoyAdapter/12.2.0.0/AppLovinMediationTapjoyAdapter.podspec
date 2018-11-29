@@ -25,7 +25,7 @@ s.source =
 { 
   	:http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationTapjoyAdapter-12.2.0.0.zip',
   	:type => 'zip',
-	:sha256 => 'dc31a1e795e94957ac364a9e4138ec1ee05e9315df2ee1845f618bb5109bf5f4'
+	:sha256 => '5300f8ca1fb32fbb0448d811ee83cce065736b8a281d7a61158d5044fad4e978'
 }
 
 s.vendored_frameworks = 'AppLovinMediationTapjoyAdapter-12.2.0.0/AppLovinMediationTapjoyAdapter.framework'
