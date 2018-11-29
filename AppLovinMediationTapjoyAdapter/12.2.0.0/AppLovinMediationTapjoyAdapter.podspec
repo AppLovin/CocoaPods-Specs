@@ -25,12 +25,12 @@ s.source =
 { 
   	:http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationTapjoyAdapter-12.2.0.0.zip',
   	:type => 'zip',
-	:sha256 => '700311b5fdaaf3b5da5357e912485a923535efb8090230be380a6a2955d6de0a'
+	:sha256 => 'dc31a1e795e94957ac364a9e4138ec1ee05e9315df2ee1845f618bb5109bf5f4'
 }
 
 s.vendored_frameworks = 'AppLovinMediationTapjoyAdapter-12.2.0.0/AppLovinMediationTapjoyAdapter.framework'
-s.resource = 'AppLovinMediationTapjoyAdapter-12.2.0.0/TapjoyResources.bundle'
 
+s.dependency 'TapjoySDK', '= 12.2.0'
 s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'Security', 'CoreData', 'CFNetwork', 'CoreGraphics', 'CoreLocation', 'CoreMotion', 'EventKitUI', 'EventKit', 'Foundation', 'MapKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'SystemConfiguration', 'UIKit'

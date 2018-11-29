@@ -25,12 +25,13 @@ s.source =
 { 
   :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationFyberAdapter-7.1.1.0.zip',
   :type => 'zip',
-  :sha256 => '0ff528d6d4efb89a5a81036bf43f7cda7990bac04a1dc10ea54f5e12e905be25'
+  :sha256 => 'c1cd53d0158796f12a8cbb251a3ea04a2a502d0ba378b01225a34e876d51d0e1'
 }
 
 s.vendored_frameworks = 'AppLovinMediationFyberAdapter-7.1.1.0/AppLovinMediationFyberAdapter.framework'
-s.module_map = 'AppLovinMediationFyberAdapter-7.1.1.0/AppLovinMediationFyberAdapter.framework/Modules/module.modulemap'
-s.resource = 'AppLovinMediationFyberAdapter-7.1.1.0/IASDKResources.bundle'
+
+s.dependency 'InneractiveSDK', '= 7.1.1'
+s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'CoreTelephony', 'StoreKit', 'AdSupport', 'AVFoundation', 'CoreMedia', 'WebKit'
 s.library = 'xml2.2'

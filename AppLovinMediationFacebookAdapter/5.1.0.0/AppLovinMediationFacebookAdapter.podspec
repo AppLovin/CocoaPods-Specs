@@ -25,11 +25,13 @@ s.source =
 { 
   :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationFacebookAdapter-5.1.0.0.zip',
   :type => 'zip',
-  :sha256 => '54d2e1053ef0a06f9a1c25f80348ac0520c9137d774fba44c5a7296835b45a8f'
+  :sha256 => '8c828725c4badc76fdf0f07ebf6bd9741cbc4cc03579d0f179999ab885d4a5ee'
 }
 
 s.vendored_frameworks = 'AppLovinMediationFacebookAdapter-5.1.0.0/AppLovinMediationFacebookAdapter.framework'
-s.module_map = 'AppLovinMediationFacebookAdapter-5.1.0.0/AppLovinMediationFacebookAdapter.framework/Modules/module.modulemap'
+
+s.dependency 'FBAudienceNetwork', '= 5.1.0'
+s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'AudioToolbox', 'StoreKit', 'CoreGraphics', 'UIKit', 'Foundation', 'Security', 'CoreImage', 'AVFoundation', 'CoreMedia'
 s.weak_frameworks = 'AdSupport', 'CoreMotion', 'SafariServices', 'VideoToolbox', 'WebKit'

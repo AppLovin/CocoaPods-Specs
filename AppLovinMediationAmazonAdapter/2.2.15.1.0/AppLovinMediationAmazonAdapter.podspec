@@ -25,11 +25,12 @@ s.source =
 { 
   	:http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationAmazonAdapter-2.2.15.1.0.zip',
   	:type => 'zip',
-	:sha256 => 'f7366c37f19b2e1e1bad66d04d9b4d0c495e553b43e54e39b8b81460d4e91761'
+	:sha256 => 'b6aeb82170d3510f4fcdc570692d1cb8206ece55f814e8fa193a2dcb84744148'
 }
 
 s.vendored_frameworks = 'AppLovinMediationAmazonAdapter-2.2.15.1.0/AppLovinMediationAmazonAdapter.framework'
 
+s.dependency 'AmazonAd', '= 2.2.15.1'
 s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'AdSupport', 'CoreLocation', 'SystemConfiguration', 'CoreTelephony', 'MediaPlayer', 'EventKit', 'EventKitUI', 'StoreKit', 'QuartzCore', 'SafariServices', 'JavaScriptCore'

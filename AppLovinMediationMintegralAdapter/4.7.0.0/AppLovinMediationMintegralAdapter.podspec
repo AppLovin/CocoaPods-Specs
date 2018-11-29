@@ -25,15 +25,16 @@ s.source =
 { 
   :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationMintegralAdapter-4.7.0.0.zip',
   :type => 'zip',
-  :sha256 => '30ab6be34588a35cd722cd7d52924acc8a4b93ec51bdb4e3d9cf17b89686ebb8'
+  :sha256 => '57cf66a8aac66af41b17d8bba82a07901a809cc861da771486119881de7d54ef'
 }
 
 s.vendored_frameworks = 'AppLovinMediationMintegralAdapter-4.7.0.0/AppLovinMediationMintegralAdapter.framework'
 
+s.dependency 'Mintegral', '= 4.7.0.0'
+s.dependency 'AppLovinSDK', '>= 6.0.0'
+
 s.frameworks = 'CoreGraphics', 'Foundation', 'UIKit', 'AdSupport', 'StoreKit', 'QuartzCore', 'CoreLocation', 'CoreTelephony', 'MobileCoreServices', 'Accelerate', 'AVFoundation', 'WebKit'
 s.library = 'sqlite3', 'z'
-
-s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.description = <<-DESC
 

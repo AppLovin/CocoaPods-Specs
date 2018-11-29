@@ -25,11 +25,13 @@ s.source =
 { 
   :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationGoogleAdapter-7.36.0.0.zip',
   :type => 'zip',
-  :sha256 => 'c2e72076342790f1cadfbe3b4132ae6b13f73f3acfe7965a730d4fd2a3880c02'
+  :sha256 => '8f60e76fdf18152eae58d7a67f09724d0fb9998c15eaa306ddc1fb7426b01963'
 }
 
 s.vendored_frameworks = 'AppLovinMediationGoogleAdapter-7.36.0.0/AppLovinMediationGoogleAdapter.framework'
-s.module_map = 'AppLovinMediationGoogleAdapter-7.36.0.0/AppLovinMediationGoogleAdapter.framework/Modules/module.modulemap'
+
+s.dependency 'Google-Mobile-Ads-SDK', '= 7.36.0'
+s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'CoreVideo', 'GLKit', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
 s.weak_frameworks = 'AdSupport', 'JavaScriptCore', 'SafariServices', 'WebKit'

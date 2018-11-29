@@ -25,12 +25,13 @@ s.source =
 { 
   :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationMoPubAdapter-5.4.0.0.zip',
   :type => 'zip',
-  :sha256 => '920e554aa422a19efe0d556696c3243fa3cecb932390bd83e1fb57621c8881da'
+  :sha256 => 'f27327f129e63cbb41e75b10b4cef42f67c4f64fa4e689cec601cc3706d65490'
 }
 
 s.vendored_frameworks = 'AppLovinMediationMoPubAdapter-5.4.0.0/AppLovinMediationMoPubAdapter.framework'
 
-s.dependency 'mopub-ios-sdk', '~> 5.4.0'
+s.dependency 'mopub-ios-sdk', '= 5.4.0'
+s.dependency 'AppLovinSDK', '>= 6.0.0'
 
 s.frameworks = 'AVFoundation', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreTelephony', 'Foundation', 'MediaPlayer', 'QuartzCore', 'SystemConfiguration', 'UIKit', 'SafariServices'
 s.weak_frameworks = 'AdSupport', 'StoreKit', 'WebKit'
