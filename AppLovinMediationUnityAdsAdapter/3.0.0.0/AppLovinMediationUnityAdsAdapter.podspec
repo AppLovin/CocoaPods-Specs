@@ -4,10 +4,10 @@ s.authors =
 {
 	'AppLovin Corporation' => 'support@applovin.com'
 }
-s.name = 'AppLovinMediationVungleAdapter'
-s.version = '6.3.2.0'
+s.name = 'AppLovinMediationUnityAdsAdapter'
+s.version = '3.0.0.0'
 s.platform = :ios, '9.0'
-s.summary = 'Vungle adapter used for mediation with the AppLovin MAX SDK'
+s.summary = 'Unity adapter used for mediation with the AppLovin MAX SDK'
 s.homepage = 'https://www.applovin.com/'
 s.license = 
 { 
@@ -23,19 +23,15 @@ LICENSE
 
 s.source = 
 { 
-  :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationVungleAdapter-6.3.2.0.zip',
+  :http => 'https://bintray.com/applovin/iOS-Adapters/download_file?file_path=AppLovinMediationUnityAdsAdapter-3.0.0.0.zip',
   :type => 'zip',
-  :sha256 => '53c97221d1416e2a6568c5123799aea20e0a28467547372fc3fd62819a8ad68d'
+  :sha256 => ''
 }
 
-s.vendored_frameworks = 'AppLovinMediationVungleAdapter-6.3.2.0/AppLovinMediationVungleAdapter.framework'
+s.vendored_frameworks = 'AppLovinMediationUnityAdsAdapter-3.0.0.0/AppLovinMediationUnityAdsAdapter.framework'
 
-s.dependency 'VungleSDK-iOS', '= 6.3.2.0'
+s.dependency 'UnityAds', '= 3.0.0'
 s.dependency 'AppLovinSDK', '>= 6.1.0'
-
-s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'MediaPlayer', 'QuartzCore', 'StoreKit', 'SystemConfiguration'
-s.weak_frameworks = 'Foundation', 'UIKit', 'WebKit'
-s.library = 'z'
 
 s.description = <<-DESC
 
