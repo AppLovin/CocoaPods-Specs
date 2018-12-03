@@ -10,7 +10,7 @@ s.author = { 'Christopher Cong' => 'christopher.cong@applovin.com' }
 s.platform = :ios, '9.0'
 s.source = {
              :git => 'https://github.com/AppLovin/AppLovin-iOS-Mediated-SDKs.git',
-             :branch => 'release/6.0.0'
+             :tag => '6.0.0'
 }
 
 s.subspec 'AdColony' do |adcolony|
