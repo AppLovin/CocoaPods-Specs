@@ -14,27 +14,27 @@ s.source = {
 }
 
 s.subspec 'AdColony' do |adcolony|
-	adcolony.dependency 'AdColony', '~> 3.3.6'
+	adcolony.dependency 'AdColony', '= 3.3.6'
 end
 
 s.subspec 'AmazonAd' do |amazonad|
-    amazonad.dependency 'AmazonAd', '~> 2.2.15.1'
+    amazonad.dependency 'AmazonAd', '= 2.2.15.1'
 end
 
 s.subspec 'ChartboostSDK' do |chartboost|
-	chartboost.dependency 'ChartboostSDK', '~> 7.3.0'
+	chartboost.dependency 'ChartboostSDK', '= 7.3.0'
 end
 
 s.subspec 'FBAudienceNetwork' do |facebook|
-	facebook.dependency 'FBAudienceNetwork', '~> 5.1.0'
+	facebook.dependency 'FBAudienceNetwork', '= 5.1.0'
 end
 
 s.subspec 'Google-Mobile-Ads-SDK' do |google|
-	google.dependency 'Google-Mobile-Ads-SDK', '~> 7.36.0'
+	google.dependency 'Google-Mobile-Ads-SDK', '= 7.36.0'
 end
 
 s.subspec 'InMobiSDK' do |inmobi|
-	inmobi.dependency 'InMobiSDK', '~> 7.2.1'
+	inmobi.dependency 'InMobiSDK', '= 7.2.1'
 end
 
 s.subspec 'InneractiveSDK' do |inneractive|
@@ -48,7 +48,7 @@ s.subspec 'InneractiveSDKOnly' do |inneractiveSDKOnly|
 end
 
 s.subspec 'IronSourceSDK' do |ironsource|
-	ironsource.dependency 'IronSourceSDK', '~> 6.7.12.0'
+	ironsource.dependency 'IronSourceSDK', '= 6.7.12.0'
 end
 
 s.subspec 'MintegralSDK' do |mintegral|
@@ -57,19 +57,19 @@ s.subspec 'MintegralSDK' do |mintegral|
 end
 
 s.subspec 'mopub-ios-sdk' do |mopub|
-	mopub.dependency 'mopub-ios-sdk', '~> 5.4.0'
+	mopub.dependency 'mopub-ios-sdk', '= 5.4.0'
 end
 
 s.subspec 'TapjoySDK' do |tapjoy|
-	tapjoy.dependency 'TapjoySDK', '~> 12.2.0'
+	tapjoy.dependency 'TapjoySDK', '= 12.2.0'
 end
 
 s.subspec 'UnityAds' do |unity|
-	unity.dependency 'UnityAds', '~> 3.0.0'
+	unity.dependency 'UnityAds', '= 3.0.0'
 end
 
 s.subspec 'VungleSDK-iOS' do |vungle|
-	vungle.dependency 'VungleSDK-iOS', '~> 6.3.2'
+	vungle.dependency 'VungleSDK-iOS', '= 6.3.2'
 end
 
 end
