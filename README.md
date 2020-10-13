@@ -1,3 +1,3 @@
 # CocoaPods-Specs
 
-AppLovin Unlisted CocoaPods Specs
+AppLovin CocoaPods repository used for beta SDK and adapter distributions.
