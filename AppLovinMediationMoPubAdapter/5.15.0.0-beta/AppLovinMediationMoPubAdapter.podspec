@@ -9,6 +9,7 @@ s.version = '5.15.0.0-beta'
 s.platform = :ios, '10.0'
 s.summary = 'MoPub adapter used for mediation with the AppLovin MAX SDK'
 s.homepage = 'https://github.com/CocoaPods/Specs/search?o=desc&q=AppLovinMediationMoPubAdapter&s=indexed'
+s.swift_versions = ['5.0']
 s.license = 
 { 
   :type => 'Commercial License',
