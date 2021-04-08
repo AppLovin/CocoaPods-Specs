@@ -23,7 +23,7 @@ LICENSE
 
 s.source =
 {
-  :http => 'https://applovin-mobile-artifacts.s3.amazonaws.com/ios/com/applovin/applovin-sdk/beta/applovin-ios-sdk-10.1.2-beta1-beta1.zip',
+  :http => 'https://applovin-mobile-artifacts.s3.amazonaws.com/ios/com/applovin/applovin-sdk/beta/applovin-ios-sdk-10.1.2-beta1.zip',
   :type => 'zip'
 }
 s.vendored_frameworks = 'applovin-ios-sdk-10.1.2-beta1/AppLovinSDK.framework'
