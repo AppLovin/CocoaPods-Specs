@@ -5,7 +5,7 @@ s.authors =
     'AppLovin Corporation' => 'devsupport@applovin.com'
 }
 s.name = 'AppLovinSDK'
-s.version = '10.1.2'
+s.version = '10.1.2-beta1'
 s.platform = :ios, '9.0'
 s.summary = 'AppLovin SDK for iOS'
 s.homepage = 'https://www.applovin.com/'
@@ -23,13 +23,13 @@ LICENSE
 
 s.source =
 {
-  :http => 'https://applovin-mobile-artifacts.s3.amazonaws.com/ios/com/applovin/applovin-sdk/beta/applovin-ios-sdk-10.1.2-beta1.zip',
+  :http => 'https://applovin-mobile-artifacts.s3.amazonaws.com/ios/com/applovin/applovin-sdk/beta/applovin-ios-sdk-10.1.2-beta1-beta1.zip',
   :type => 'zip'
 }
-s.vendored_frameworks = 'applovin-ios-sdk-10.1.2/AppLovinSDK.framework'
-s.module_map = 'applovin-ios-sdk-10.1.2/AppLovinSDK.framework/Modules/module.modulemap'
-s.preserve_paths = 'applovin-ios-sdk-10.1.2/appledoc/*'
-s.resource = 'applovin-ios-sdk-10.1.2/AppLovinSDKResources.bundle'
+s.vendored_frameworks = 'applovin-ios-sdk-10.1.2-beta1/AppLovinSDK.framework'
+s.module_map = 'applovin-ios-sdk-10.1.2-beta1/AppLovinSDK.framework/Modules/module.modulemap'
+s.preserve_paths = 'applovin-ios-sdk-10.1.2-beta1/appledoc/*'
+s.resource = 'applovin-ios-sdk-10.1.2-beta1/AppLovinSDKResources.bundle'
 s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'MessageUI', 'SafariServices', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
 s.libraries = 'z'
 
