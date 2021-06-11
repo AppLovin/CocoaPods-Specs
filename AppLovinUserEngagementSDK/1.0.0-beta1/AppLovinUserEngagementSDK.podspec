@@ -27,9 +27,9 @@ s.source =
   :type => 'zip'
 }
 
-s.vendored_frameworks = 'applovin-ios-userengagement-sdk-1.0.0-beta1/AppLovinUserEngagementSDK.xcframework'
-s.preserve_paths = 'applovin-ios-userengagement-1.0.0-beta1/appledoc/*'
-s.resource = 'applovin-ios-userengagement-1.0.0-beta1/AppLovinUserEngagementSDKResources.bundle'
+s.vendored_frameworks = 'applovin-ios-user-engagement-sdk-1.0.0-beta1/AppLovinUserEngagementSDK.xcframework'
+s.preserve_paths = 'applovin-ios-user-engagement-1.0.0-beta1/appledoc/*'
+s.resource = 'applovin-ios-user-engagement-1.0.0-beta1/AppLovinUserEngagementSDKResources.bundle'
 s.frameworks = 'Security'
 s.dependency 'AppLovinSDK'
 
