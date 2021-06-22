@@ -23,7 +23,7 @@ LICENSE
 
 s.source = 
 {
-  :http => 'https://artifacts.applovin.com/ios/com/applovin/applovin-user-engagement-sdk/applovin-ios-user-engagement-sdk-1.0.0-beta2.zip',
+  :http => 'https://artifacts.applovin.com/ios/com/applovin/applovin-user-engagement-sdk/beta/applovin-ios-user-engagement-sdk-1.0.0-beta2.zip',
   :type => 'zip'
 }
 
