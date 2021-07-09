@@ -24,7 +24,7 @@ LICENSE
 s.source =
 {
   # NOTE: SDK directory has to be restructured to remove symlinks and non-related artifacts in order to work with CocoaPods
-  :http => 'https://bintray.com/applovin/PythonLib/download_file?file_path=AppLovinQualityServicePod-4.2.1.zip',
+  :http => 'https://artifacts.applovin.com/ios/com/applovin/quality/AppLovinQualityServicePod/4.2.1/AppLovinQualityServicePod-4.2.1.zip',
   :type => 'zip'
 }
 
