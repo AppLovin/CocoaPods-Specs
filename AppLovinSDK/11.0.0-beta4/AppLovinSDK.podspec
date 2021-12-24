@@ -5,7 +5,7 @@ s.authors =
 	'AppLovin Corporation' => 'devsupport@applovin.com'
 }
 s.name = 'AppLovinSDK'
-s.version = '11.0.0-beta3'
+s.version = '11.0.0-beta4'
 s.platform = :ios, '9.0'
 s.summary = 'AppLovin SDK for iOS'
 s.homepage = 'https://www.applovin.com/'
@@ -23,12 +23,12 @@ LICENSE
 
 s.source = 
 {
-  :http => 'https://artifacts.applovin.com/ios/com/applovin/applovin-sdk/beta/applovin-ios-sdk-11.0.0-beta3.zip',
+  :http => 'https://artifacts.applovin.com/ios/com/applovin/applovin-sdk/beta/applovin-ios-sdk-11.0.0-beta4.zip',
   :type => 'zip'
 }
-s.vendored_frameworks = 'applovin-ios-sdk-11.0.0-beta3/AppLovinSDK.xcframework'
-s.preserve_paths = 'applovin-ios-sdk-11.0.0-beta3/appledoc/*'
-s.resource = 'applovin-ios-sdk-11.0.0-beta3/AppLovinSDKResources.bundle'
+s.vendored_frameworks = 'applovin-ios-sdk-11.0.0-beta4/AppLovinSDK.xcframework'
+s.preserve_paths = 'applovin-ios-sdk-11.0.0-beta4/appledoc/*'
+s.resource = 'applovin-ios-sdk-11.0.0-beta4/AppLovinSDKResources.bundle'
 s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'MessageUI', 'SafariServices', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
 s.weak_frameworks = 'AppTrackingTransparency' # weakly link against AppTrackingTransparency to allow building iOS13 tests
 s.libraries = 'z'
