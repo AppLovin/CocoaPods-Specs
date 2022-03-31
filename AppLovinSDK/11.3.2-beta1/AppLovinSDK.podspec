@@ -26,9 +26,9 @@ s.source =
   :http => 'https://artifacts.applovin.com/ios/com/applovin/applovin-sdk/beta/applovin-ios-sdk-11.3.2-beta1.zip',
   :type => 'zip'
 }
-s.vendored_frameworks = 'applovin-ios-sdk-11.3.2/AppLovinSDK.xcframework'
-s.preserve_paths = 'applovin-ios-sdk-11.3.2/appledoc/*'
-s.resource = 'applovin-ios-sdk-11.3.2/AppLovinSDKResources.bundle'
+s.vendored_frameworks = 'applovin-ios-sdk-11.3.2-beta1/AppLovinSDK.xcframework'
+s.preserve_paths = 'applovin-ios-sdk-11.3.2-beta1/appledoc/*'
+s.resource = 'applovin-ios-sdk-11.3.2-beta1/AppLovinSDKResources.bundle'
 s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'MessageUI', 'SafariServices', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
 s.weak_frameworks = 'AppTrackingTransparency' # weakly link against AppTrackingTransparency to allow building iOS13 tests
 s.libraries = 'z'
