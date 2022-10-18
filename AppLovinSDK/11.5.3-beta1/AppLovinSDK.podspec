@@ -23,7 +23,7 @@ LICENSE
 
 s.source = 
 {
-  :http => 'https://artifacts.applovin.com/ios/com/applovin/applovin-sdk/applovin-ios-sdk-11.5.3-beta1.zip',
+  :http => 'https://artifacts.applovin.com/ios/com/applovin/applovin-sdk/beta/applovin-ios-sdk-11.5.3-beta1.zip',
   :type => 'zip'
 }
 s.vendored_frameworks = 'applovin-ios-sdk-11.5.3-beta1/AppLovinSDK.xcframework'
