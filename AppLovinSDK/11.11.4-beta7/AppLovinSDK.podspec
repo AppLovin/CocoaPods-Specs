@@ -28,7 +28,6 @@ s.source =
 }
 
 s.dependency 'CandlestickSDK', '= 2.0.7.9'
-s.dependency 'CandlestickSDK-RuntimeKit', '= 2.0.7.9'
 s.swift_version = "5.1"
 
 s.vendored_frameworks = "applovin-ios-sdk-#{s.version}/AppLovinSDK.xcframework"
