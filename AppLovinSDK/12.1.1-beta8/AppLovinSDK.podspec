@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.authors = 'AppLovin Corporation'
 s.name = 'AppLovinSDK'
-s.version = '12.1.1-beta6'
+s.version = '12.1.1-beta8'
 s.platform = :ios, '11.0'
 s.summary = 'AppLovin SDK for iOS'
 s.homepage = 'https://www.applovin.com/'
