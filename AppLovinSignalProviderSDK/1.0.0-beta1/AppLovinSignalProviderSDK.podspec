@@ -20,9 +20,7 @@ LICENSE
 
 s.source =
 {
-  :http => "#{s.version}" =~ /beta/ ?
-    "https://artifacts.applovin.com/ios/com/applovin/applovin-signal-provider-sdk/beta/applovin-ios-signal-provider-sdk-#{s.version}.zip" :
-    "https://artifacts.applovin.com/ios/com/applovin/applovin-signal-provider-sdk/applovin-ios-signal-provider-sdk-#{s.version}.zip",
+  :http => "#{s.version}" =~ "https://applovin-mobile-artifacts.s3.amazonaws.com/ios/com/applovin/applovin-ios-signal-provider-sdk/beta/applovin-ios-signal-provider-sdk-1.0.0-beta1.zip",
   :type => "zip"
 }
 s.vendored_frameworks = "applovin-ios-signal-provider-sdk-#{s.version}/AppLovinSignalProviderSDK.xcframework"
