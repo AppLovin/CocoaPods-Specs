@@ -27,7 +27,7 @@ s.source =
 s.vendored_frameworks = "#{s.name}-#{s.version}/#{s.name}.xcframework"
 
 s.dependency 'AdjoeWaveSDK', '= 1.2.1'
-s.dependency 'AppLovinSDK', '>= 13.0.1-beta1'
+s.dependency 'AppLovinSDK', '>= 13.0.1'
 s.swift_version = '5.0'
 
 s.description = <<-DESC
