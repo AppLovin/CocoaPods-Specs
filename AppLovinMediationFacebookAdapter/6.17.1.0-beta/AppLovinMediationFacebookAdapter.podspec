@@ -26,7 +26,7 @@ s.source =
 
 s.vendored_frameworks = "#{s.name}-#{s.version}/#{s.name}.xcframework"
 
-s.dependency 'FBAudienceNetwork', '= 6.17.1'
+s.dependency 'FBAudienceNetwork', '= 6.16.0'
 s.dependency 'AppLovinSDK', '>= 13.0.0'
 s.swift_version = '5.0'
 
